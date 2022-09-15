@@ -4,7 +4,13 @@ Symbolical computation like SymPy.
 
 ## API Reference
 
-### `class algebraic.constant.Integer(value: Optional[int], /)`
+### constant module
+
+#### class algebraic.Constant()
+
+Base class common to all types defined in the `algebraic.constant` module.
+
+#### class algebraic.constant.Integer(value: Optional[int], /)
 
 Creates an algebraic Integer constant.
 
@@ -16,7 +22,7 @@ fifteen
 15
 ```
 
-### `class algebraic.constant.Rational(numerator: Optional[int], denominator: Optional[int], /)`
+#### class algebraic.constant.Rational(numerator: Optional[int], denominator: Optional[int], /)
 
 Creates an algebraic Rational constant.
 
@@ -28,7 +34,7 @@ half
 1/2
 ```
 
-### `class algebraic.constant.Real(value: Optional[float], /)`
+#### class algebraic.constant.Real(value: Optional[float], /)
 
 Creates an algebraic Real constant.
 
@@ -40,7 +46,7 @@ pi
 3.14
 ```
 
-## `class algebraic.constant.Complex(value: Optional[complex], /)`
+#### class algebraic.constant.Complex(value: Optional[complex], /)
 
 Creates an algebraic Complex constant.
 
