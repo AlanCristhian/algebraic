@@ -4,7 +4,7 @@ import objname
 
 
 __all__ = [
-    "Integer", "Rational", "Real"
+    "Constant", "Integer", "Rational", "Real", "Complex",
 ]
 
 
