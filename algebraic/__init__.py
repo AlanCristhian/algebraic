@@ -1,6 +1,7 @@
 from . import constant
-from constant import Constant
+from . import comprehension
+from .constant import Constant
 
 __all__ = [
-    "constant", "Constant"
+    "constant", "Constant", "comprehension",
 ]
